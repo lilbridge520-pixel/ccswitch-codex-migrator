@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest a narrowly scoped improvement.
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not attach real Codex history, rollout files, SQLite databases, credentials, or private chat content.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What safe, reproducible problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: fixtures
+    attributes:
+      label: Synthetic fixture idea
+      description: Explain how the behavior could be tested without real user data.

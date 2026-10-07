@@ -3,6 +3,18 @@
   "release": "v0.1.0-beta",
   "files": [
     {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "29566B6BB4FF024971F719617F7A70F11CDD14CA6F21EDE47901222D18B745E5"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha256": "97E1A5B5FC9C26A1DCDEC79CF1B89430E8C91FB27876863853677579A27D60AC"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "373DC70853151CAE4713ECF13D9CA4108A559780067D53B99A5FC09E3FA6B55C"
+    },
+    {
       "path": ".github/workflows/tests.yml",
       "sha256": "A0ED5ED6B372DE7C20482B368E55D7693AC8F7EC610B15D6337E1047B5F2D4CF"
     },
@@ -28,7 +40,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "7492D66B8B12FBDD1DA750E62576557BC76C856AAC1EA3C1D9EE221D7D803684"
+      "sha256": "484626EAAFA0BE00D665A8E2A42E054717D43AF5E1BA84FDC838AFF75DDA795A"
     },
     {
       "path": "references/migration-rules.md",

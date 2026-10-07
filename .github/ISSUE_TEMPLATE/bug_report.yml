@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible problem without sharing private Codex data.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not upload** `auth.json`, real rollout files, SQLite databases, tokens, or private chat history.
+        Share sanitized errors and metadata only.
+  - type: input
+    id: codex-version
+    attributes:
+      label: Codex version
+      placeholder: "0.160.1"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11"
+    validations:
+      required: true
+  - type: input
+    id: skill-version
+    attributes:
+      label: Skill version
+      placeholder: "v0.1.0-beta"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Scan status
+      options:
+        - scan-only
+        - write_allowed
+        - unknown
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Sanitized error
+      description: Remove paths, Thread IDs, tokens, and message content.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
