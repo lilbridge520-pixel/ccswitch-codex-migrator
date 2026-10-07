@@ -1,0 +1,10 @@
+{"timestamp":"2026-01-01T00:00:00Z","type":"session_meta","payload":{"thread_id":"synthetic-thread-0001","session_id":"synthetic-session-0001","cwd":"C:\\synthetic\\study","title":"Synthetic Study","cli_version":"0.160.0"}}
+{"timestamp":"2026-01-01T00:00:01Z","type":"thread_settings_applied","payload":{"model":"legacy-model-a","model_provider":"LegacyProvider"}}
+{"timestamp":"2026-01-01T00:00:02Z","type":"compacted","payload":{"message":"synthetic compact checkpoint"}}
+{"timestamp":"2026-01-01T00:00:03Z","type":"turn_context","payload":{"model":"qwen3.7-plus","model_provider":"OpenAI","reasoning_effort":"medium"}}
+{"timestamp":"2026-01-01T00:00:04Z","type":"response_item","payload":{"type":"message","role":"assistant","id":"resp_chatcmpl-synthetic_msg","content":[{"type":"output_text","text":"Synthetic assistant body"}]}}
+{"timestamp":"2026-01-01T00:00:05Z","type":"response_item","payload":{"type":"reasoning","id":"rs_resp_chatcmpl-synthetic","summary":[{"type":"summary_text","text":"Synthetic summary"}],"encrypted_content":null}}
+{"timestamp":"2026-01-01T00:00:06Z","type":"response_item","payload":{"type":"function_call","id":"fc_call_synthetic","name":"synthetic_tool","arguments":"{}","call_id":"call_synthetic_keep"}}
+{"timestamp":"2026-01-01T00:00:07Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_synthetic_keep","output":"synthetic output"}}
+{"timestamp":"2026-01-01T00:00:08Z","type":"event_msg","payload":{"type":"item_completed","item":{"type":"agent_message","id":"msg_local_synthetic","text":"Synthetic assistant body"}}}
+{"timestamp":"2026-01-01T00:00:09Z","type":"token_usage_record","payload":{"input_tokens":10,"output_tokens":2}}

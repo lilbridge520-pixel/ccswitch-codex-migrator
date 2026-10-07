@@ -1,0 +1,21 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Compile Python
+        run: python -m compileall -q scripts tests
+      - name: Validate PowerShell entrypoint
+        shell: pwsh
+        run: ./scripts/Invoke-CcSwitchMigrator.ps1 --help

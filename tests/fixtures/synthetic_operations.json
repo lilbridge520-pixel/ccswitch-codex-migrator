@@ -1,0 +1,7 @@
+[
+  {"kind":"set","line":4,"path":["payload","model"],"expected":"qwen3.7-plus","value":"official-model-selected-by-test"},
+  {"kind":"set","line":4,"path":["payload","model_provider"],"expected":"OpenAI","value":"openai"},
+  {"kind":"delete","line":5,"path":["payload","id"],"expected":"resp_chatcmpl-synthetic_msg"},
+  {"kind":"delete","line":6,"path":["payload","id"],"expected":"rs_resp_chatcmpl-synthetic"},
+  {"kind":"delete","line":7,"path":["payload","id"],"expected":"fc_call_synthetic"}
+]

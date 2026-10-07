@@ -1,0 +1,4 @@
+interface:
+  display_name: "CC Switch Codex Migrator"
+  short_description: "Safely migrate one legacy Codex thread"
+  default_prompt: "Use $ccswitch-codex-migrator to dry-run and safely migrate one legacy CC Switch Codex thread."

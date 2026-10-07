@@ -1,0 +1,146 @@
+{
+  "format_version": 1,
+  "release": "v0.1.0-beta",
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "A0ED5ED6B372DE7C20482B368E55D7693AC8F7EC610B15D6337E1047B5F2D4CF"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "25DEF4767CF9AAAE32D47E4E07044B0D314074A81728D18C57B11F1E44EBADC6"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "C845ED1C2BC1CAF8E36A2AFBEEB94FB9DD0C117349FEF0B98C4D59E78CD87FF0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "6F8315FBBE4FC41FD521B7F6B2A3A1E2CB0F47D45278026BD466AF1F4DD0EB9C"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "3B9B50E8C3F6DE93914601B6C5CAFFE4A937C2F315B6E890CA8F0F1E3655DD66"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "C4884504A828F9BC7681A072477989B8603D90C6F11E0EEBF0BBE7B653D6A7B8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7492D66B8B12FBDD1DA750E62576557BC76C856AAC1EA3C1D9EE221D7D803684"
+    },
+    {
+      "path": "references/migration-rules.md",
+      "sha256": "4B9A94595B64BF5D8AB967C73E5CA4CA56BE970209B9AF24C3C508F5551F22F4"
+    },
+    {
+      "path": "references/rollout-format.md",
+      "sha256": "2F788DC81583FC9812BB90DDDE03BE621FC728CCCBBA76D512AADFD656217C3A"
+    },
+    {
+      "path": "references/safety-policy.md",
+      "sha256": "968527A085387C77EB302CC06CA753E806CAA54360D8E380E56E2525F8ED197B"
+    },
+    {
+      "path": "references/source-compatibility.md",
+      "sha256": "EC27C4EC117408CCA9BDF45342C1E2EB11DA9CD97E64F56A39E24C811D75D990"
+    },
+    {
+      "path": "references/sqlite-projection.md",
+      "sha256": "299BBA55CBCF9C9DF5F94933C0CD24D9C4C99E3136315C711FC9145775E3B329"
+    },
+    {
+      "path": "references/verification-playbook.md",
+      "sha256": "81036046EE16089F4F8F03E27C1ADAA0713E5F9435CFDD8BF82DF50A12D9BF3B"
+    },
+    {
+      "path": "scripts/ccswitch_migrator.py",
+      "sha256": "EBAC31EBFCBB3AD31CFAA93719BC09D75434079CBFA1B12A075B11E86513159F"
+    },
+    {
+      "path": "scripts/Invoke-CcSwitchMigrator.ps1",
+      "sha256": "4626F6F82A821F0AE45918CFF02ADA553E0D7D570759F3769ACDE0563D23A0F8"
+    },
+    {
+      "path": "scripts/migrator/__init__.py",
+      "sha256": "F4DF37FA076C21056EC8A97D41CAF0A66A06220CCDA28E865225D6DEAEFB0E17"
+    },
+    {
+      "path": "scripts/migrator/bootstrap_metadata.py",
+      "sha256": "7B295E01ACD7E3B25CE1CCE6623A33025A84DBE26CA672A7F12585F92FB9D86C"
+    },
+    {
+      "path": "scripts/migrator/discovery.py",
+      "sha256": "A12BEDE5E44721511D34D542B80E79FF74643AF5C0AC34B15A6E8B84907C5B57"
+    },
+    {
+      "path": "scripts/migrator/migration_plan.py",
+      "sha256": "EF798ACF8CBFE73D5D5B1F3DBABAF389F422E54D79730B2D087BB9A187A772A2"
+    },
+    {
+      "path": "scripts/migrator/models.py",
+      "sha256": "B11A8D8A52A7FBCB52F7E6B3E3FDD40C344D56A402C7A7526113CFC2BD83752C"
+    },
+    {
+      "path": "scripts/migrator/rollback.py",
+      "sha256": "FA27E80A5A2B9F3BF39CD8F9BA9E1C1DCF32CDFD2EED45C60E4607DF9EFAD187"
+    },
+    {
+      "path": "scripts/migrator/rollout_patch.py",
+      "sha256": "C6347AAE6CF655FA1617A999731E51B4CB97153D41702A9300372F67C47D2209"
+    },
+    {
+      "path": "scripts/migrator/rollout_scan.py",
+      "sha256": "201EF9C93E00537544EAC286D852068DC0BD165E647645907BF8419EDE35B79D"
+    },
+    {
+      "path": "scripts/migrator/sqlite_projection.py",
+      "sha256": "228B5F8E321CA04533ABA97419F722891C7840068632B5D232E26589FD560B3C"
+    },
+    {
+      "path": "scripts/migrator/verification.py",
+      "sha256": "C6393B7103D01DC8717667545907A001409441C3C444F7AF663B9321A91942EA"
+    },
+    {
+      "path": "scripts/migrator/version_guard.py",
+      "sha256": "1379D6852355CD5F2306D994196E0CD1B3A4BF2F3E25EBEC566C0318334E3A3A"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "0F2951E380C6500371789B9188F86D5FEFF01E8CC5155B52BD8BE08B49205700"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "5B59446C5E8533F7719737A74CFF1D8E24C1733817BA1FA6C7FA1E2A2B1D67D8"
+    },
+    {
+      "path": "tests/fixtures/source-0.155.0-alpha.16.4.jsonl",
+      "sha256": "04F4DA506F9ED6B903CB799D51DDC0F365920F96906D8462E1F04C4F5B3ECFE9"
+    },
+    {
+      "path": "tests/fixtures/source-0.155.0-alpha.9.2.jsonl",
+      "sha256": "F01EA909EDF9499EB2E1DB04795678316E9BED75E317D6516340BE5B30B2DF81"
+    },
+    {
+      "path": "tests/fixtures/source-0.158.0-alpha.2.1.jsonl",
+      "sha256": "ABD5CB073C7217235A3CCB08A85B658271D76D6A3AB065FCF21BB3655893FBA9"
+    },
+    {
+      "path": "tests/fixtures/synthetic-runtime-append-0160.jsonl",
+      "sha256": "114D9517E97D90E9042A674CB92503931546088EDCAC43C3EF96F0EA1C5D1624"
+    },
+    {
+      "path": "tests/fixtures/synthetic_legacy_rollout.jsonl",
+      "sha256": "702E2E3E3305A5A0C5CA60C048BDC3FFE26A59528288C423B095D800F771FEE8"
+    },
+    {
+      "path": "tests/fixtures/synthetic_operations.json",
+      "sha256": "20E315B7A2BA04835EE98BB0F004D38BA6A11B0797E2DE6349D11BCDCDD19588"
+    },
+    {
+      "path": "tests/test_migrator.py",
+      "sha256": "58218926ECAA9102E67689707C7D093CE6350D4011ACBFE70538CF91861BCA33"
+    }
+  ]
+}
